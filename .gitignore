@@ -1,0 +1,17 @@
+.vercel/
+.next/
+.next-*/
+build-output/
+node_modules/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Local artifacts and logs
+*.log
+*.zip
+*.pdf
+.DS_Store
+Thumbs.db

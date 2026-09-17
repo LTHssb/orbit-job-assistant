@@ -1,0 +1,9 @@
+build-output/
+.next/
+.next-*/
+node_modules/
+.env
+.env.*
+*.zip
+*.pdf
+*.log

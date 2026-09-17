@@ -1,0 +1,29 @@
+{
+  "name": "orbit-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.80",
+    "@sparticuz/chromium": "^149.0.0",
+    "@supabase/ssr": "^0.12.4",
+    "@supabase/supabase-js": "^2.112.3",
+    "mammoth": "^1.12.1",
+    "next": "^15.5.2",
+    "pdf-parse": "^2.4.5",
+    "playwright-core": "^1.62.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.8.3"
+  }
+}
